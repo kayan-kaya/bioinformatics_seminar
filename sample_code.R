@@ -1,8 +1,14 @@
 library(Seurat)
 
 # データをロード
-load(demo_data.rda)
-srt_obj <- demo_srt
+load(demo_counts.rda)
+load(demo_metadata.rda)
+srt_obj <- CreateSeuratObject(
+  counts = demo_counts, 
+  meta.data = demo_metadata
+)
+
+Idents(srt_obj) <- "Human"
 
 # 総遺伝子数と総カウント数をプロットして確認
 VlnPlot(
