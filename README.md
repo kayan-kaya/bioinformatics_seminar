@@ -1,0 +1,2 @@
+# bioinformatics_seminar
+バイオインフォマティクス講習会用の資料とデータです
