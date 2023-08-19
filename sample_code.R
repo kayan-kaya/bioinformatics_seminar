@@ -1,8 +1,8 @@
 library(Seurat)
 
 # データをロード
-load(demo_counts.rda)
-load(demo_metadata.rda)
+load("demo_counts.rda")
+load("demo_metadata.rda")
 srt_obj <- CreateSeuratObject(
   counts = demo_counts, 
   meta.data = demo_metadata
