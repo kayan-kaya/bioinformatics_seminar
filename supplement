@@ -3,3 +3,13 @@ FeaturePlot(
   features = "遺伝子名（大文字アルファベット）“,
   label = T
 )
+
+VlnPlot(
+  object = srt_obj,
+  features = "遺伝子名（大文字アルファベット）"
+)
+
+DotPlot(
+  srt_obj,
+  features = c("遺伝子名", "遺伝子名", "遺伝子名")
+)
