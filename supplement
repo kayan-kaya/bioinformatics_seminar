@@ -13,3 +13,6 @@ DotPlot(
   srt_obj,
   features = c("遺伝子名", "遺伝子名", "遺伝子名")
 )
+
+# マーカー遺伝子のデータベース
+# https://panglaodb.se/markers.html
