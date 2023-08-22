@@ -16,3 +16,15 @@ DotPlot(
 
 # マーカー遺伝子のデータベース
 # https://panglaodb.se/markers.html
+
+# クラスター０の名前をhogehoge cellに変更
+Idents(srt_obj, cells = WhichCells(srt_obj, idents = 0)) <- "hogehoge cell"
+
+# 変更した結果をmetadataに保存
+srt_obj[["annotation_1"]] <- Idents(srt_obj)
+
+# 保存した分類の結果を現在のデータセットに適用
+Idents(srt_obj) <- srt_obj@meta.data$annotation_1
+
+# resolution0.1を再適用
+Idents(srt_obj) <- srt_obj@meta.data$SCT_snn_res.0.1
