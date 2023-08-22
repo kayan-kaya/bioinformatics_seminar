@@ -28,3 +28,9 @@ Idents(srt_obj) <- srt_obj@meta.data$annotation_1
 
 # resolution0.1を再適用
 Idents(srt_obj) <- srt_obj@meta.data$SCT_snn_res.0.1
+
+# srt_objを作業ディレクトリに保存(ファイル名の拡張子は.rda)
+save(srt_obj, file = "srt_obj_0822.rda")
+
+# 作業ディレクトリ内に保存したオブジェクトをロード
+load("srt_obj_0822.rda")
