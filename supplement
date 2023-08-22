@@ -1,1 +1,5 @@
-
+FeaturePlot(
+  srt_obj,
+  features = "遺伝子名（大文字アルファベット）“,
+  label = T
+)
