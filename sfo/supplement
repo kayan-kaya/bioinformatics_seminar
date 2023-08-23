@@ -1,0 +1,4 @@
+srt_qc <- subset(
+  srt,
+  subset = percent.mt < x & nCount_RNA > x & nFeature_RNA > x
+)
