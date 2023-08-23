@@ -2,3 +2,6 @@ srt_qc <- subset(
   srt,
   subset = percent.mt < x & nCount_RNA > x & nFeature_RNA > x
 )
+
+# 特定のクラスターを抽出
+badcells <- subset(srt, idents = c(2, 7, 9))
