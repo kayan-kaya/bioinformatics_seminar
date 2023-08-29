@@ -11,7 +11,6 @@ SeuratというRパッケージをインストールしておいてください�
 https://satijalab.org/seurat/<br><br>
 
 今回のワークショップでは以下の論文のデータを皆さんに再解析していただきます。<br>
-Baron M, et al. A Single-Cell Transcriptomic Map of the Human and Mouse Pancreas Reveals Inter- and Intra-cell Population Structure. Cell Syst. 2016 
-doi: 10.1016/j.cels.2016.08.011.<br>
+Muraro, M. J., G. Dharmadhikari, D. Grun, N. Groen, T. Dielen, E. Jansen, L. van Gurp, et al. 2016. “A Single-Cell Transcriptome Atlas of the Human Pancreas.” Cell Syst 3 (4): 385–94.<br>
 予習は特に必要ありません。お気軽にご参加いただけると幸いです。<br>
 
